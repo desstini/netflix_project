@@ -269,13 +269,8 @@ section div.download img{
     position:relative;
     z-index:5;
 }
-.media.s3 video{
-    width: 60%;
-    position:absolute;
-    top:36px;
-    left:82px;
-    margin-left: -3%;
-}
+
+
 
 div.faq{
     padding: 70px 30px;
@@ -347,4 +342,39 @@ div.faq form{
 }
 div.faq form div + div{
     text-align: center;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align align-items: center;
+    margin: 0 auto;
+    padding: 10px;
+    line-height: 45px;
+    font-size:14px;
+    
+}
+.footer .one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px;
+    width: 25%;
+  
+}
+
+.footer .two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: -40px 50px 50px 50px;
+    width: 25%;
+}
+.item {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: #666;
 }
