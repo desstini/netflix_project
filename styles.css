@@ -270,8 +270,6 @@ section div.download img{
     z-index:5;
 }
 
-
-
 div.faq{
     padding: 70px 30px;
 }
@@ -305,7 +303,7 @@ div.question svg{
     height: 30px;
     right:30px;
     top:20px;
-    position:absolute;
+    position: absolute;
     transform: rotate(45deg);
     transition: all 0.2s ease;
 }
@@ -348,13 +346,12 @@ div.faq form div + div{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align align-items: center;
+    align-items : center;
     margin: 0 auto;
     padding: 10px;
     line-height: 45px;
-    font-size:14px;
-    
-}
+    font-size: 14px;
+   }
 .footer .one {
     display: flex;
     flex-direction: row;
